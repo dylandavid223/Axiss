@@ -39,7 +39,7 @@ export default function TokenPanel() {
               <div className="flex items-center justify-between px-4 py-3 border-b border-[var(--border-primary)] bg-black/40">
                 <div className="flex items-center gap-3">
                   <TrendingUp className="w-4 h-4 text-[#14F195]" />
-                  <h2 className="text-xs font-mono font-bold text-white tracking-widest uppercase">$OSIRIS LIVE CHART</h2>
+                  <h2 className="text-xs font-mono font-bold text-white tracking-widest uppercase">AXISS LIVE CHART</h2>
                 </div>
                 <button 
                   onClick={() => setIsOpen(false)}
