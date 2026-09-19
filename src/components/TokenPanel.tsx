@@ -9,13 +9,7 @@ export default function TokenPanel() {
 
   return (
     <>
-      <button 
-        onClick={() => setIsOpen(true)}
-        className="pointer-events-auto glass-panel px-3 py-1.5 flex items-center gap-2 text-[9px] font-mono tracking-widest hover:opacity-80 transition-opacity border-[#14F195]/40 bg-[#14F195]/10 ml-3 shadow-[0_0_10px_rgba(20,241,149,0.1)]"
-      >
-        <TrendingUp className="w-3 h-3 text-[#14F195]" />
-        
-      </button>
+      
 
       <AnimatePresence>
         {isOpen && (
